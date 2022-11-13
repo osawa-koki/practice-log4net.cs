@@ -10,10 +10,8 @@ namespace practice_log4net.cs
 {
   internal class Program
   {
-    private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
-    static void Main(string[] args)
+    static void Main()
     {
-
       var logger = LogManager.GetLogger(Assembly.GetExecutingAssembly().FullName);
 
       // ログ出力
